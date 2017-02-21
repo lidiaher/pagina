@@ -1,0 +1,111 @@
+body {
+  font-family: Helvetica, Arial, serif;
+  background: pink;
+  font-weight: 300;
+  margin: 5px;
+  padding: 15px;
+}
+
+.wrapper {
+  max-width: 90%;
+  margin: auto;
+  padding: 8px;
+}
+
+/* LEste es el diseño de los elementos del header */
+header {
+  text-align: left;
+}
+
+/* Los h1, h2 y h4 son para definir 
+el diseño de las distintas tipografías */
+h1 {
+  color: crimson;
+  font-family: cursive, serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+#byline a:hover {
+  color: hotpink;
+} /* Link en el byline que cambia de color */
+
+/* Esto es para el byline */
+h2 a {
+  color: red;
+  text-align: left;
+  font-family: Helvetica, serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+
+
+/* El h3 es para todos los titulos de cada seccion */
+h3 {
+  font-family: Helvetica, serif;
+  font-style: bold;
+  font-weight: 250;
+}
+
+.photo {
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.imagen {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+/* Esto es para el caption de la foto */
+figcaption {
+  color: #ff66cc;
+}
+
+/* Aqui va el diseño del bajante, llamado lede*/
+#lede {
+  font-size: 18px;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1.25;
+}
+/* No le cambio el color al 
+texto porque visualmente me parece mas comodo leerlo asi*/
+.text {
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.25;
+}
+
+p {
+  font-weight: 400;
+}
+
+/* Aqui va el twitter feed */
+.twitter {
+  width: 300px;
+  float: right;
+}
+/* Aqui van los articulos relacionados, debajo del twitter feed*/
+.articulos {
+  width: 300px;
+}
+/* Aqui va el estilo para la cita de tamanno grande*/
+#quote {
+  font-style: italic;
+}
+
+/* Esto es para el diseño del footer */
+footer {
+  text-align: left;
+}
+
+@media only screen and (max-width: 720px) {
+  .twitter {
+    float: none;
+  }
+}
